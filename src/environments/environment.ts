@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  PORT:4200,
+  CLIENT_ORIGIN_URL: 'http://localhost:4200',
+  AUTH0_DOMAIN: 'dev-xbcq64nisba4n3ck.us.auth0.com',
+  AUTH0_CLIENT_ID: 'k0xhRSNzDoiKSFVNSWEOwNUwagvv3Lca',
+  AUTH0_CLIENT_SECRET: 'fiTyNf8yg_H4voWfXMbW8kr9Wg5XP7bN4yAkaBlg_4MfvsuXXvp6Ec3hD6a5SwbE',
+  AUTH0_CALLBACK_URL:'http://localhost:4200/home',
+  API_SERVER_URL:'dev-xbcq64nisba4n3ck.us.auth0.com'
 };
 
 /*

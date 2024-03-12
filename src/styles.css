@@ -1,4 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-
+/* @import "../node_modules/boot"; */
+/* @import '../node_modules/boo'; */
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+header{
+    position: relative;
+    padding: 20px;
+}
+
+header h1{
+    margin: 0!important;
+}
+
+header button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.fR{
+    float:right
+}

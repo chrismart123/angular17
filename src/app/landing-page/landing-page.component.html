@@ -1,0 +1,17 @@
+
+<div *ngIf="!loggedIn">
+  <div class="card text-center">
+    <div class="card-header">
+      <p>Welcome to the weather forecast web application. Please login you<br/>
+      Github user to use the application and view the weather in your city</p>
+      <button class="btn btn-primary" (click)="login()">Login</button>
+    </div>
+  </div>
+ </div>   
+  
+<!-- <div *ngIf="loggedIn">
+  <a routerLink="/home">Home</a>
+  <a routerLink="/weather">Weather</a>
+  <button (click)="getAuthService().logout()">Logout</button>
+</div>
+   -->
